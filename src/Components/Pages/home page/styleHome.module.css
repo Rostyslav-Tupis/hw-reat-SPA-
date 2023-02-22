@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(63, 68, 72);
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+.main-wrapper{
+    margin-top: 75px;
+    padding: 0 10px 0 10px;
+}
+.content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+.text-container{
+    max-width: 900px;
+    margin-bottom: 15px;
+}
+.text-parh1{
+    margin-bottom: 25px;
+}
+.text-parh1 p {
+    text-indent: 40px;
+}
+.text-parh2 p {
+    text-indent: 40px;
+}
+
+.text{
+    font-size: 20px;
+    line-height: 1.4;
+}
+.home-photo{
+    width: 100%;
+    max-width: 440px;
+    height: auto;
+}
+.history-title{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+    margin-bottom: 15px;
+}
